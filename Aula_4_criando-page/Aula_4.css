@@ -1,15 +1,40 @@
 body {
-    background-color: cornflowerblue;
+    background-color: rgba(16, 62, 155, 0.801);
+    font-size: 18px;
+    color: rgb(0, 0, 0);
 }
 
-H1 {
-    text-align: center
+h1 {
+    text-align: center;
+    text-decoration-line: underline;
+    color: rgb(0, 0, 0);
+}
+
+h3 {
+    text-align: left;
+    text-decoration-line: underline;
 }
 
 p {
-    font-size: 23px; text-align: center
+    text-align: center;
 }
 
-ol {
-    font-size: 20px
+#qualidade {
+    text-decoration-line: underline;
+    font-size: 24px;
+    text-align: left;
+}
+
+#serviço {
+    color: rgb(214, 192, 162);
+}
+
+.itens {
+    font-style: italic;
+    font-style: normal;
+    font-size: 20px;
+}
+
+#contato {
+    color: rgb(189, 206, 186);
 }
