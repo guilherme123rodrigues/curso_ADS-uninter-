@@ -1,3 +1,8 @@
+#titulo {
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     background-color: rgba(140, 145, 155, 0.801);
     font-size: 18px;
@@ -23,14 +28,18 @@ p {
     text-align: left;
 }
 
+#serv {
+    background-color: rgb(31, 29, 5);
+}
+
 #serviço {
-    color: rgb(44, 28, 5)
+    color: rgb(223, 216, 207)
 }
 
 .itens {
     font-style: italic;
-    font-style: normal;
     font-size: 20px;
+    color: rgb(194, 194, 194);
 }
 
 #contato {
@@ -44,10 +53,15 @@ em strong {
 }
 
 #imag {
-    border: 5px; border-style: solid;
+    border: 3px; border-style: solid; border-color: rgb(1, 1, 8);
     padding: 10px;
     margin: 5px;
     width:100%;
     height: 500px;
 
+}
+
+#energia {
+    width: 100%;
+    height: 190px;
 }
