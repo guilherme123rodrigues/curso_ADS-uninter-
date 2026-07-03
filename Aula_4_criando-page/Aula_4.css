@@ -29,17 +29,31 @@ p {
 }
 
 #serv {
-    background-color: rgb(31, 29, 5);
+    background-color: white;
+    width: 1400px;
+    display: inline-block;
+    vertical-align: top;
 }
 
 #serviço {
-    color: rgb(223, 216, 207)
+    color: rgb(26, 16, 4);
 }
 
 .itens {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: italic;
     font-size: 20px;
-    color: rgb(194, 194, 194);
+    color: rgb(26, 16, 4);
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#pche {
+    width: 40%;
+    height: 400px;
 }
 
 #contato {
