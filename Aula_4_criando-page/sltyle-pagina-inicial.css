@@ -1,6 +1,12 @@
 header {
-    background-color: bisque;
+    background-color: rgb(20, 42, 143);
     padding: 20px 0;
+}
+
+
+#imagem_cabeçalho {
+    width: 30%;
+    height: 30%;
 }
 
 main {
@@ -15,19 +21,10 @@ main {
     margin: 0 auto;
 }
 
-form p {
-    font-size: 20px;
-}
-
 nav {
     position: absolute;
     top: 70px;
     right: 0;
-}
-
-#imagem_cabeçalho {
-    width: 30%;
-    height: 30%;
 }
 
 nav li {
@@ -35,21 +32,29 @@ nav li {
     margin: 0 0 0 20px;
 }
 
-
 nav a {
     text-transform: uppercase;
-    color: black;
+    color: white;
     font-weight: bold;
     font-size: 26px;
     text-decoration: none;
 }
 
-form label {
+nav a:hover {
+    color: green;
+    text-decoration: overline;
+    text-decoration-line: underline;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label, form p {
     display: block;
     margin: 10px 0;
     font-size: 20px;
 }
-
 
 .input_padrão {
     width: 30%;
@@ -62,23 +67,24 @@ form textarea {
     font-size: 15px
 }
 
-.enviar:hover {
-    color: blue;
-    font-size: 15px;
-    font-weight: bold;
-}
-
-.enviar {
-    width: 30%;
-    padding: 5px 0;
-}
-
 form select {
     margin-bottom: 10px;
 }
 
 .checkbox {
     margin-bottom: 30px;
+}
+
+.enviar {
+    width: 30%;
+    padding: 5px 0;
+    border-radius: 5px;
+}
+
+.enviar:hover {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
 }
 
 footer p {
@@ -89,5 +95,4 @@ footer p {
 
 footer {
     background-image: url(imagens/Manutencion.png);
-
 }
