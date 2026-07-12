@@ -1,0 +1,93 @@
+header {
+    background-color: bisque;
+    padding: 20px 0;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+.menu {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+form p {
+    font-size: 20px;
+}
+
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+
+#imagem_cabeçalho {
+    width: 30%;
+    height: 30%;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 0 0 20px;
+}
+
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 26px;
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+
+.input_padrão {
+    width: 30%;
+    height: 35px;
+    font-size: 15px
+}
+
+form textarea {
+    padding: 10px;
+    font-size: 15px
+}
+
+.enviar:hover {
+    color: blue;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.enviar {
+    width: 30%;
+    padding: 5px 0;
+}
+
+form select {
+    margin-bottom: 10px;
+}
+
+.checkbox {
+    margin-bottom: 30px;
+}
+
+footer p {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    background-image: url(imagens/Manutencion.png);
+
+}

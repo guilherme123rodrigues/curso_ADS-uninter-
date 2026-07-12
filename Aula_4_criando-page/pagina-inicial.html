@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando minha página</title>
+
+    <link rel="stylesheet" href="sltyle-pagina-inicial.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="menu">
+            <h1><img id="imagem_cabeçalho" src="./imagens/energia.png"></h1>
+            <nav>
+                <ul> 
+                    <li><a href="../Aula2_HTML/linkss/link-externo.html">Home</a></li>
+                    <li><a href="contato.html">Serviço</a></li>
+                    <li><a href="../Aula2_HTML/Listas/Ordenada.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <form>
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome"class="input_padrão" required>
+
+            <label for="e-mail">E-mail</label>
+            <input type="text" id="e-mail" class="input_padrão" placeholder="seuemail@dominio.com" required>
+
+            <label for="telefone">Celular</label>
+            <input type="text" id="telefone" class="input_padrão" placeholder="(xx) xxxxx-xxxx" required>
+
+            <label for="menssagem">Menssagem</label>
+            <textarea cols="70" rows="10" id="menssagem"></textarea>
+            <div>
+                <p>Forma de contato preferencial</p>
+                <label for="e-mail">
+                    <input id="e-mail" name="contato" type="radio" value="email">E-mail
+                </label>
+                <label for="telefone">
+                    <input type="radio" name="contato" id="telefone" value="telefone">Celular
+                </label>
+                <label for="whatsapp">
+                    <input type="radio" name="contato" id="wohatsapp" value="whatsapp" checked>WhatsApp
+                </label>
+            </div>
+
+            <div>
+                <label>
+                    Qual dia gostaria de ser atendido?
+                </label>
+                <select>
+                    <option value="1">Segunda</option>
+                    <option value="2">Terça</option>
+                    <option value="3">Quarta</option>
+                    <option value="4">Quinta</option>
+                    <option value="5">Sexta</option>
+                </select>
+            </div>
+            
+            <label class="checkbox">
+                <input id="checkbox" type="checkbox" checked>Gostaria de receber nossas novidades por e-mail?
+            </label>
+
+            <input type="submit" class="enviar">
+        </form>    
+    </main>
+
+    <footer>
+
+    <p>&copy Guilherme Téc. informática.</footer></p>
+
+</body>
