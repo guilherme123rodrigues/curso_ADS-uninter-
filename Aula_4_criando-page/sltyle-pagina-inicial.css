@@ -95,6 +95,7 @@ footer p {
 
 footer {
     background-image: url(imagens/Manutencion.png);
+    padding: 10px 0 50px 0;
 }
 
 table {
